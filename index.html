@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ASMR for studying</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!-- For alert -->
+    <link rel="stylesheet" href="star.css">
+    <link rel="stylesheet" href="main.css">
+    <script async src="main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="shooting-stars">
+            <div class="shooting-star"></div>
+            <div class="shooting-star shooting-star--mid"></div>
+            <div class="shooting-star shooting-star--fast"></div>
+            <div class="shooting-star shooting-star--meh"></div>
+        </div>
+        <div class="hashtag_container">
+            <div class="hashtag">#study_playlist</div>
+            <div class="hashtag">#fire</div>
+            <div class="hashtag">#ocean</div>
+        </div>
+        <div class="img_container">
+            <div id="back"><img src="img/lp_img2.png"></div>
+            <div id="front"><img id="album" src="img/img1.jpg"></div>
+        </div>
+        <div id="text1"></div>
+        <div class="text_container">
+            <div class="text" id="time">00시간 00분 00초</div>
+            <div class="text">&nbsp;공부했어요!</div>
+        </div>
+        <div class="control_container">
+            <button id="play_button"><img id="play_button_img" src="img/play.png"></button>
+            <input id="vol" type="range" max="100" min="0" value="100">
+            <audio id="waveSnd" src="audio/wave.mp3" loop></audio>
+            <audio id="fireSnd" src="audio/fire.wav" loop></audio>
+            <button id="sound_button"><img id="sound_button_img" src="img/volume.png"></button>
+        </div>
+    </div>
+</body>
+</html>
